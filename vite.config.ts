@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/duke-of-edinburgh-brixton/',
+  base: '/Duke-of-edinburgh/',
   plugins: [react()],
   build: {
     target: 'es2020',

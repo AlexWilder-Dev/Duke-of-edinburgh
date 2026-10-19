@@ -18,7 +18,7 @@ Everything on it comes from the pub. That covers their own site, menus, photos a
 Add `?at=` to show any moment, in London time:
 
 ```
-/duke-of-edinburgh-brixton/?at=2026-11-08T14:00#/
+https://alexwilder-dev.github.io/Duke-of-edinburgh/?at=2026-11-08T14:00#/
 ```
 
 A "Demo clock · reset" pill appears on the board while it's set.
@@ -45,7 +45,9 @@ npm run og         # public/og.jpg, 1200x630, garden photo with the logo
 
 ## Deploy
 
-Vite + React + TypeScript + Framer Motion, HashRouter. It's built for GitHub Pages under `/duke-of-edinburgh-brixton/` (`base` in `vite.config.ts`). The link-preview tags in `index.html` use absolute URLs on that path. `.github/workflows/deploy.yml` builds and publishes on push to `main`.
+Vite + React + TypeScript + Framer Motion, HashRouter. It's built for GitHub Pages under `/Duke-of-edinburgh/` (`base` in `vite.config.ts`; Pages paths are case-sensitive). The link-preview tags in `index.html` use absolute URLs on that path. `.github/workflows/deploy.yml` builds and publishes on pushes to `main` or the repo's current default branch.
+
+Live: https://alexwilder-dev.github.io/Duke-of-edinburgh/
 
 Photos, logo and menu content belong to The Duke of Edinburgh / Rose Pubs and The Jerk Valley of London.
 

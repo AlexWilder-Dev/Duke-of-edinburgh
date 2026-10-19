@@ -6,7 +6,7 @@ import { readFile, stat } from 'node:fs/promises'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
-const SITE = 'https://alexwilder-dev.github.io/duke-of-edinburgh-brixton/'
+const SITE = 'https://alexwilder-dev.github.io/Duke-of-edinburgh/'
 const html = await readFile(path.join(root, 'dist', 'index.html'), 'utf8')
 const head = html.slice(0, html.indexOf('</head>'))
 

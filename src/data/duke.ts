@@ -484,6 +484,6 @@ export const hire = {
 }
 
 export const site = {
-  url: 'https://alexwilder-dev.github.io/duke-of-edinburgh-brixton/',
+  url: 'https://alexwilder-dev.github.io/Duke-of-edinburgh/',
   current: 'https://dukeofedinburghpub.com/',
 }
